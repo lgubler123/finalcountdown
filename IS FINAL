@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet if needed -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h3 {
+            color: #2c3e50;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .skills, .experience, .education {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .skills li, .experience li, .education li {
+            margin: 10px 0;
+        }
+        .experience .job, .education .degree {
+            font-weight: bold;
+            color: #34495e;
+        }
+        .experience .dates, .education .dates {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        .awards {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .awards li {
+            background-color: #ecf0f1;
+            padding: 8px;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+        .contact {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>John Doe</h1>
+            <p class="contact">Email: laci.gubler@yahoo.com | Phone: (123) 456-7890 | LinkedIn: linkedin.com/in/lacigubler</p>
+        </header>
+        
+        <section class="section">
+            <h2>Objective</h2>
+            <p>I am a highly motivated and skilled software developer with experience in web technologies, seeking to leverage my expertise in front-end and back-end development to contribute to a dynamic team. Passionate about learning and building innovative solutions to complex problems.</p>
+        </section>
+
+        <section class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <span class="degree">Bachelor of Science in Computer Science</span> - University of Your Mom est. 200 BCE
+                    <div class="dates">Graduated: May 2023</div>
+                    <ul>
+                        <li>GPA: 3.8/4.0</li>
+                        <li>Relevant Coursework: Data Structures, Web Development, Algorithms, Databases</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="degree">Associate of Science in Information Technology</span> - XYZ Community College
+                    <div class="dates">Graduated: May 2020</div>
+                    <ul>
+                        <li>GPA: 3.7/4.0</li>
+                        <li>Relevant Coursework: Networking, System Administration, Java Programming</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <span class="job">Software Developer Intern</span> - May 2023- June 2023
+                    <div class="dates">May 2023 – June 2023</div>
+                    <ul>
+                        <li>Developed responsive web applications using HTML, CSS, JavaScript, and React.</li>
+                        <li>Collaborated with a team of developers to implement new features and fix bugs in existing code.</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="job">Junior Web Developer</span> - XYZ Web Design
+                    <div class="dates">July 2020 – May 2021</div>
+                    <ul>
+                        <li>Built and maintained websites for clients using WordPress, HTML5, CSS3, and JavaScript.</li>
+                        <li>Worked with the design team to implement custom features and optimize user interfaces.</li>
+                        <li>Performed regular website testing and troubleshooting to ensure high performance and security.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: HTML, CSS, JavaScript, Python, Java</li>
+                <li>Tools & Frameworks: Git, Docker, Bootstrap, Jira, Tableau</li>
+                <li>Soft Skills: Problem-solving, Collaboration, Time Management, Communication, General Aura</li>
+            </ul>
+        </section>
+
+        <section class="section awards">
+            <h2>Awards & Honors</h2>
+            <ul>
+                <li>Dean's List - Brigham Young University- Hawaii (2021, 2022)</li>
+                <li>Basketball Spiff Winner (2024 Season)- Brigham Young University</li>
+                <li>Favorite Grandchild (2003-Present)</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
